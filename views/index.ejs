@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class=" font-sans ">
+    <div class="flex items-center justify-center min-h-screen w-full  bg-[#dadada]">
+        <div class="bg-white w-[38vw]  rounded-[35px] shadow-md px-[6vw] py-3 ">
+            <div class="text-center">
+                <img src="https://i.pinimg.com/originals/d3/d1/75/d3d175e560ae133f1ed5cd4ec173751a.png" alt="pin logo" class="w-28 mx-auto ">
+                <p class="text-[2.7vw] font-[500] mb-1 tracking-tighter ">Welcome to Pinterest</p>
+                  <form action="/register" method="post" class="flex flex-col  gap-4 items-center">
+                        <input type="text"  name="fullname" placeholder="Full Name" class="inline-block  text-[1.2vw] w-[20vw] h-20 rounded-[1vw] mb-2 p-5 text-gray-500 border-4 border-gray-300  focus:outline-none focus:ring-8 focus:ring-blue-400">
+                        <input type="text"  name="username" placeholder="username" class="inline-block  text-[1.2vw] w-[20vw] h-20 rounded-[1vw] mb-2 p-5 text-gray-500 border-4 border-gray-300  focus:outline-none focus:ring-8 focus:ring-blue-400">
+                        <input type="email"  name="email" placeholder="Email" class="inline-block  text-[1.2vw] w-[20vw] h-20 rounded-[1vw] mb-2 p-5 text-gray-500 border-4 border-gray-300  focus:outline-none focus:ring-8 focus:ring-blue-400">
+                        <input type="password" name="password" placeholder="Password" class="text-[1.2vw] w-[20vw] h-20 mb-2 p-5 text-gray-500 border-4 border-gray-300 rounded-[1vw] focus:outline-none focus:ring-8 focus:ring-blue-400">
+                        <input type="submit" value="Resgister Account" class="w-[20vw] h-20  mb-2 bg-red-600 text-white text-center mt-2 text-[1.2vw] font-bold rounded-full hover:bg-red-700">
+                </form>
+                <a href="/forgot" class=" hover:underline  text-[1.2vw] tracking-tighter  text-[#413f3f] font-bold ">Forgotten your password?</a>
+
+                <p class="text-[1.2vw] font-bold mb-4  ">OR</p>
+                <button class="w-[20vw] h-20  mb-2 bg-[#1877F2] text-white text-[1.2vw] font-bold rounded-full  tracking-tighter " > <a href="#">Continue with Facebook</a></button>
+                <button class="w-[20vw] h-24  mb-2 bg-transparent border text-[#413f3f] text-[1.2vw] font-bold rounded-full  tracking-tighter " > <a href="#">Continue with Googel</a></button>
+
+
+                <footer class="mt-8">
+                    <p class="  opacity-70 font-semibold text-[.9vw] tracking-tighter">By continuing, you agree to Pinterest's <br>  <a href="" class="hover:underline"><b>Terms of Service</b></a>,  and acknowledge that you've read   <br> our <a href=""  class="hover:underline"><b>Privacy policy.</b></a>notice al cottection</p>
+                    <hr class="w-1/2 mx-auto my-4 opacity-40">
+                   <!-- login linke here. -->
+                    <p class="text-[.9vw] tracking-tighter font-[400] opacity-70  ">Already have Account <a href="/login" class="un hover:underline"> <b>Login</b></a> </p>
+                    <p class="text-[.9vw] tracking-tighter font-[400] opacity-70  ">Are you a business?  <a href="#" class="un hover:underline"> <b> get started here! </b></a> </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
